@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1eiE4J2l2b9Q3yLFKmLDIJUt23i" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,8 +27,214 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="13.3.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="13.13.14" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/deviceMessage" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;message&quot;: &quot;detector&quot;,&#10;  &quot;content&quot;: &quot;test&quot;,&#10;  &quot;device_&quot;: &quot;00:12:34:56:78:90&quot;,&#10;  &quot;rawMessage&quot;: &quot;000000000000&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/deviceMessage" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;message&quot;: &quot;detector&quot;,&#10;  &quot;content&quot;: &quot;test&quot;,&#10;  &quot;device&quot;: &quot;00:12:34:56:78:90&quot;,&#10;  &quot;rawMessage&quot;: &quot;000000000000&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/deviceMessage" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;message&quot;: &quot;detector&quot;,&#10;  &quot;content_&quot;: &quot;test&quot;,&#10;  &quot;device&quot;: &quot;00:12:34:56:78:90&quot;,&#10;  &quot;rawMessage&quot;: &quot;000000000000&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/deviceMessage" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;message&quot;: &quot;detector&quot;,&#10;  &quot;content_&quot;: &quot;test&quot;,&#10;  &quot;device&quot;: &quot;00:12:34:56:78:90&quot;,&#10;  &quot;rawMessage_&quot;: &quot;000000000000&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/deviceMessage" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;message_&quot;: &quot;detector&quot;,&#10;  &quot;content_&quot;: &quot;test&quot;,&#10;  &quot;device_&quot;: &quot;00:12:34:56:78:90&quot;,&#10;  &quot;rawMessage_&quot;: &quot;000000000000&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/deviceMessage" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;message_&quot;: &quot;detector&quot;,&#10;  &quot;content&quot;: &quot;test&quot;,&#10;  &quot;device_&quot;: &quot;00:12:34:56:78:90&quot;,&#10;  &quot;rawMessage_&quot;: &quot;000000000000&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/deviceMessage" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;message_&quot;: &quot;detector&quot;,&#10;  &quot;content&quot;: &quot;test&quot;,&#10;  &quot;device_&quot;: &quot;00:12:34:56:78:90&quot;,&#10;  &quot;rawMessage&quot;: &quot;000000000000&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/deviceMessage" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10; &quot;message&quot;:&quot;detector&quot;,&#10; &quot;content&quot;: &quot;test&quot;,&#10; &quot;device&quot; : &quot;00:12:34:56:78:90&quot;,&#10; &quot;rawMessage&quot; : &quot;000000000000&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/deviceMessage" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="{" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value=" &quot;message&quot;" />
+                <option name="value" value="&quot;detector&quot;," />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value=" &quot;content&quot;" />
+                <option name="value" value="&quot;test&quot;," />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value=" &quot;device&quot; " />
+                <option name="value" value="&quot;00:12:34:56:78:90&quot;," />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value=" &quot;rawMessage&quot; " />
+                <option name="value" value="&quot;000000000000&quot;" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="}" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/deviceMessage" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.bin/www">
+    <configuration name="deviceMessageTest#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/httpRequestTests/deviceMessageTest.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.deviceMessageTest#1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -31,7 +244,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594795821758</updated>
-      <workItem from="1594795823206" duration="70000" />
+      <workItem from="1594795823206" duration="2086000" />
     </task>
     <servers />
   </component>
@@ -39,9 +252,73 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2053" y="456" width="670" height="676" key="search.everywhere.popup" timestamp="1594795890053">
+    <state width="1616" height="420" key="GridCell.Tab.0.bottom" timestamp="1594799405392">
       <screen x="0" y="23" width="3840" height="1504" />
     </state>
-    <state x="2053" y="456" width="670" height="676" key="search.everywhere.popup/0.23.3840.1504@0.23.3840.1504" timestamp="1594795890053" />
+    <state width="1616" height="420" key="GridCell.Tab.0.bottom/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405392" />
+    <state width="1616" height="420" key="GridCell.Tab.0.center" timestamp="1594799405391">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state width="1616" height="420" key="GridCell.Tab.0.center/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405391" />
+    <state width="1616" height="420" key="GridCell.Tab.0.left" timestamp="1594799405391">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state width="1616" height="420" key="GridCell.Tab.0.left/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405391" />
+    <state width="1616" height="420" key="GridCell.Tab.0.right" timestamp="1594799405392">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state width="1616" height="420" key="GridCell.Tab.0.right/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405392" />
+    <state width="1616" height="420" key="GridCell.Tab.1.bottom" timestamp="1594799405393">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state width="1616" height="420" key="GridCell.Tab.1.bottom/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405393" />
+    <state width="1616" height="420" key="GridCell.Tab.1.center" timestamp="1594799405392">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state width="1616" height="420" key="GridCell.Tab.1.center/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405392" />
+    <state width="1616" height="420" key="GridCell.Tab.1.left" timestamp="1594799405392">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state width="1616" height="420" key="GridCell.Tab.1.left/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405392" />
+    <state width="1616" height="420" key="GridCell.Tab.1.right" timestamp="1594799405392">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state width="1616" height="420" key="GridCell.Tab.1.right/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405392" />
+    <state width="1616" height="420" key="GridCell.Tab.2.bottom" timestamp="1594799405393">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state width="1616" height="420" key="GridCell.Tab.2.bottom/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405393" />
+    <state width="1616" height="420" key="GridCell.Tab.2.center" timestamp="1594799405393">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state width="1616" height="420" key="GridCell.Tab.2.center/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405393" />
+    <state width="1616" height="420" key="GridCell.Tab.2.left" timestamp="1594799405393">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state width="1616" height="420" key="GridCell.Tab.2.left/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405393" />
+    <state width="1616" height="420" key="GridCell.Tab.2.right" timestamp="1594799405393">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state width="1616" height="420" key="GridCell.Tab.2.right/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405393" />
+    <state width="1616" height="420" key="GridCell.Tab.3.bottom" timestamp="1594799405394">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state width="1616" height="420" key="GridCell.Tab.3.bottom/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405394" />
+    <state width="1616" height="420" key="GridCell.Tab.3.center" timestamp="1594799405394">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state width="1616" height="420" key="GridCell.Tab.3.center/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405394" />
+    <state width="1616" height="420" key="GridCell.Tab.3.left" timestamp="1594799405393">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state width="1616" height="420" key="GridCell.Tab.3.left/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405393" />
+    <state width="1616" height="420" key="GridCell.Tab.3.right" timestamp="1594799405394">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state width="1616" height="420" key="GridCell.Tab.3.right/0.23.3840.1504@0.23.3840.1504" timestamp="1594799405394" />
+    <state x="2053" y="456" width="670" height="676" key="search.everywhere.popup" timestamp="1594796345653">
+      <screen x="0" y="23" width="3840" height="1504" />
+    </state>
+    <state x="2053" y="456" width="670" height="676" key="search.everywhere.popup/0.23.3840.1504@0.23.3840.1504" timestamp="1594796345653" />
   </component>
 </project>

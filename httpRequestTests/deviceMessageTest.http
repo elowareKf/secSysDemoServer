@@ -1,0 +1,12 @@
+POST http://localhost:3000/deviceMessage
+Content-Type: application/json
+
+{
+  "message": "detector",
+  "content": "test",
+  "device": "00:12:34:56:78:90",
+  "rawMessage": "000000000000"
+}
+
+###
+
